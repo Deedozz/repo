@@ -6,7 +6,7 @@ In brief: the extension SAMLReQuest decodes SAML authentication requests and dis
 Now the extension provides automatic attacks using Intruder!
 In any SAMLReQuest sub-tab, there is a button at the bottom of the sub-tab called “Send Decoded Request to Intruder“ as shown in Figure 1. The chosen request was successful and its response was 302 Redirect.
 
-[!Figure 1](images/SendToIntruderBtn.PNG)
+![Figure 1](images/SendToIntruderBtn.PNG)
 [[images/SendToIntruderBtn.PNG | Intruder Button]]
 Figure 1: "Send Decoded Request to Intruder" button
 The request in Intruder is the same as the original one, except that SAMLRequest parameter is decoded as shown in Figure 2. You can set the payload positions and payloads as in any normal request. In Figure 2, I will change the last four characters in ID parameter of SAML authentication request.
